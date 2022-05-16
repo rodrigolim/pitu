@@ -11,7 +11,7 @@ import database from "./database";
     }
 })();
 
-const PORT = 3000
+const PORT = 3001
 
 app.listen(PORT, () => 
     console.log(`Exemplo de app rodando em http://localhost:${PORT}`)       
