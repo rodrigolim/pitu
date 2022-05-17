@@ -12,7 +12,7 @@ NPM, PostgreSQL
 PGHOST = 
 PGUSER = 
 PGPASSWORD = 
-PGDATABASE = node_crud
+PGDATABASE = pitu
 PGPORT = 5432
 PORT = 3001
 ```
