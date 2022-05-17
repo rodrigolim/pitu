@@ -1,9 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+
 import HomePage from '../pages/HomePage'
 import RedirectPage from '../pages/RedirectPage'
 import StatsPage from '../pages/StatsPage'
 import NotFoundPage from '../pages/NotFoundPage'
+
 
 function Routes() {
     return (
