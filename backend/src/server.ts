@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import app from "./app";
 import database from "./database";
 
@@ -11,9 +12,6 @@ import database from "./database";
     }
 })();
 
-const PORT = 3001
-
-app.listen(PORT, () => 
-    console.log(`Exemplo de app rodando em http://localhost:${PORT}`)       
+app.listen(process.env.PORT, () => 
+    console.log(`Exemplo de app rodando em http://localhost:${process.env.PORT}`)       
    );
-
