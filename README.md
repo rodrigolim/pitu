@@ -3,5 +3,5 @@ Monorepo é simplesmente a definição de arquitetura em que você utiliza apena
 
 
 ## Como está dividido a estrutura deste projeto
-- backend
-- frontend
+- backend - Api para prover e armazenar as URL's que serão encortadas
+- frontend - Aplicação WEB para consumir a API acima

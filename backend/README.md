@@ -18,11 +18,11 @@ PORT = 3001
 ```
 
 ## Instalação
-- via CMD, localize a pasta root do projeto e execute:
+- via CMD, e dentro de ./backend execute:
 ```
 npm install
 ```
-- após, na pasta root do projeto, inicie um servidor local, por exemplo:
+- após, inicie um servidor local, por exemplo:
 ```
 npm run dev
 ```
