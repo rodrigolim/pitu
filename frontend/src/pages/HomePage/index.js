@@ -58,11 +58,7 @@ class HomePage extends React.Component {
                                 defaultValue=""
                                 onChange={e => this.setState({ url: e.target.value })}
                             />
-
-                            <Button variant="primary" type="submit">
-                                Encurtar
-                            </Button>
-
+                            <Button variant="primary" type="submit">Encurtar</Button>
                         </InputGroup>
 
                         {isLoading ? (
@@ -76,9 +72,7 @@ class HomePage extends React.Component {
                                             defaultValue={`https://pitu.tk/${code}`}
                                             ref={(input) => this.inputURL  = input}
                                         />
-
                                         <Button variant="outline-secondary" onClick={() => this.copyToClipboard()}>Copiar</Button>
-
                                     </InputGroup>
 
                                     <p>Para acompanhar as estatísticas, acesse https://pitu.tk/{code} </p>
