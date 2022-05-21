@@ -24,7 +24,7 @@ class HomePage extends React.Component {
         this.setState({ isLoading: true, errorMessage: '' })
 
         if (!url) {
-            this.setState({ isLoading: false, errorMessage: 'Informe uma URL para encurtar.' })
+            this.setState({ isLoading: false, errorMessage: 'É Obrigatório informar uma URL para encurtar.' })
         } else {
             try {
                 const service = new ShortenerService();
